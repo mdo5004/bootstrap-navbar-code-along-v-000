@@ -1,0 +1,43 @@
+/*/////// MEDIA ////////*/
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+/*/////// LAYOUT ////////*/
+
+.row{
+    margin-bottom:20px;
+}
+
+
+/*/////// SOCIAL ////////*/
+
+#social {
+  
+}
+
+#social a {
+  
+  width: 40px;
+  height: 40px;
+  margin:5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+a.fbook, a.twit, a.gplus {
+  background: url(../images/social-icons.png) no-repeat;
+}
+
+a.fbook { background-position: 0 0; }
+a.fbook:hover { background-position: -40px 0; }
+a.fbook:active { background-position: -80px 0; }
+
+a.twit { background-position: 0 -40px; }
+a.twit:hover { background-position: -40px -40px; }
+a.twit:active { background-position: -80px -40px; }
+
+a.gplus { background-position: 0 -80px; }
+a.gplus:hover { background-position: -40px -80px; }
+a.gplus:active { background-position: -80px -80px; }
